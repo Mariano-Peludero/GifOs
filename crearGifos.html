@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/estilosCrearGifos.css">   
+    <script src="script/logicCrearGifos.js"></script>
+    <title>Crear Gifos</title>
+</head>
+<body>
+        <nav id="nav" class="nav">
+            <a href="index.html"><img class="arrow" src="Imagenes/arrow.svg" alt="arrow"></a><img class="imag" src="Imagenes/gifOF_logo.png" alt="logo">     
+        </nav>
+<div id="display" >
+        <div class="cartel">
+            <div class="tituloCartel"><h4>Crear Gifos</h4></div>
+            
+                
+                    <div class="tituloywindow" >                    
+                        <h3 class="texyWindow"><img class="windowimg" src="Imagenes/window img.png" alt="window">Aquí podrás crear tus propios guifos</h3>
+                    </div>
+                    <div class="textoCartel">
+                        <p>Crear tu <b>guifo</b> es muy fácil, graba cualquier imagen con tu cámara 
+                        y obtén guifos oersonalizados. Los pasos para crear tu guifo son: </p>
+                        <p><b>1)</b> Dar permiso de acceso a la cámara (sólo por el tiempo de uso)</p>
+                        <p><b>2)</b> Capturar tu momento guifo</p>
+                        <p><b>3)</b> Revisar el momento</p>
+                        <p><b>4)</b> Listo para subir y compartir</p>
+                        <p>¿Quieres comenzar a crear tu <b>guifo</b> ahora?</p>
+
+                    </div>
+                    <div class="botonesCatel">
+                        <button type="button" class="btnCancelar" onclick="cancelar()">Cancelar</button>
+                        <button type="button" class="btnComenzar" onclick="comenzar()">Comenzar</button>
+                    </div>
+                   
+            </div>
+
+    </div>
+            <div id="video" class="displayVideo">
+                <div class="tituloCartel">Crear Gifos</div>
+                <video id="videos" autoplay controls class="video"></video> 
+                <video id="mostrarGif"></video> 
+             </div>
+
+     <div class="sugeridosTitulo"><h5 class="tendenciaTitulo">Mis Gifos</h5></div>
+    
+      
+      
+    
+   
+</body>
+</html>

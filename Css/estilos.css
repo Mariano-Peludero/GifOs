@@ -1,0 +1,354 @@
+html, body{
+    margin: 0;
+}
+.day{
+    background-color: rgb(245, 231, 231);
+}
+
+.contenedor{
+    width: 83%;
+    margin-left: 91px;
+    margin-right: 100px;
+}
+.nav{
+    width: 100%;
+    height: 120;
+    display: flex;
+}
+.Bienvenido{
+    width: 100%;
+    height: 23px;
+    margin-top: 0px;
+    background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+    box-shadow: 0 1px 0 0 #110038;
+    margin: 1px;
+    font-family: ChakraPetch-Regular;
+    font-size: 12px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+
+.imag{
+    width: 102px;
+    height: 64px;
+    margin-top: 35px;
+    margin-left: 0px;
+}
+
+.botonCrear{
+    width: 144px;
+    height: 36px;
+    margin-left: 650px;
+    margin-top: 50px;
+    background: #F7C9F3; 
+    color: black; 
+}
+.botonCrear:hover{
+    border: 1px solid #110038;
+}
+.botonCrear1{
+  text-decoration: none;
+  color: black;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+.botonDos{
+    width: 144px;
+    height: 36px;
+    margin-left: 10px;
+    margin-top:50px;
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF; 
+}
+.myGifos{
+    width: 100px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 60px;
+    color: black;
+    text-decoration: none;
+}
+.myGifos:hover{
+    border: 1px solid #110038;
+}
+
+.Buscador{
+    width:100% ;
+    height: 99px;
+    margin-top: 19px;
+}
+.buscar{
+    width: 100%;
+    height: 20px;
+    color: white;
+    background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+    margin-bottom: 0px;
+}
+.FormBusc{
+    height: 95px;
+    margin-top: 0px;
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+#inputBusc{
+    width: 900px;
+    height: 48px;
+    margin-top: 12px;
+    margin-left: 12px;
+    margin-bottom: 10px;
+
+}
+.boton_buscar{
+    width: 102px;
+    height: 36px; 
+    color:grey ;   
+    background: #E6E6E6; 
+    border: 1px solid #808080; 
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;     
+}
+.boton_buscar2{
+    width: 102px;
+    height: 36px; 
+    color: black;
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+.boton_buscar2:hover{
+    border: 2px solid #110038;
+}
+.lupa{
+    margin-left: 0px;
+    margin-right: 5px;
+}
+.palaBuscar{
+    text-decoration: none;
+}
+
+.displayBusc1{
+   margin-top: -4px;
+   width: 100%;
+   height: 160px;
+   background: #E6E6E6;
+   box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+   padding-top: 20px; 
+}
+.displayBusc{
+   display: none;
+}
+.buscPopulares{
+    margin-left: 20px;
+}
+
+.texConteiner1 {
+    width: 1000px;
+    height: 34px;
+    margin-top: 11px;
+    margin-left: 15px;
+    text-align: initial;
+    font-family: ChakraPetch-Regular;
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 22px;    
+}
+.texConteiner1:hover{
+    border: 1px solid #110038;
+}
+
+.sugeridos{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    
+}
+.sugeridosTitulo{
+    width: 100%;
+    height: 36px;
+    margin-bottom: 10px;
+    background: #FFFAFE;
+    border: 1px solid #E6BBE2;
+    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+}
+.sugerenciasTitulo{
+    margin-left: 10px;
+    margin-top: 8px;
+    
+}
+.gifSugeridos{
+    display: flex;
+    width: 100%;
+    height: 230px;
+    
+}
+.botones{
+    width: 100%;
+    height: 35px;
+    margin-bottom: 50px;
+}
+.botones-close-sugeridos{
+    width: 100%;
+    height: 24px;
+    display: flex;
+    margin-bottom: -4px;
+    
+}
+.btnCruz{
+    width: 16px;
+    height: 14px;
+    margin-left: 158px;
+    margin-top: 3px;
+}
+.btnCruz2{
+    width: 16px;
+    height: 14px;
+    margin-left: 160px;
+    margin-top: 3px;
+}
+.btnCruz3{
+    width: 16px;
+    height: 14px;
+    margin-left: 195px;
+    margin-top: 3px;
+}
+.btnCruz4{
+    width: 16px;
+    height: 14px;
+    margin-left: 182px;
+    margin-top: 3px;
+}
+.clase-sugeridos{
+    width: 270px;
+    height: 20px;
+    margin-left: 10px;
+    color: white;
+    font-size: 14px;
+    background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+}
+.button1{
+    width: 81px;
+    height: 35px;
+    color: white;
+    margin-left: 30px;
+    background: #4180F6;
+    border: 1px solid #4C2F99;
+    box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+}
+.button1:hover{
+    border: 2px solid #110038;
+}
+.button2:hover{
+    border: 2px solid #110038;
+}
+.button2{
+    width: 81px;
+    height: 35px;
+    color: white;
+    margin-left: 190px;
+    background: #4180F6;
+    border: 1px solid #4C2F99;
+    box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+}
+.desple{
+    width: 131px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.desple1{
+    width: 100px;
+    height: 36px;
+    background: #F7C9F3;
+    /* border: 1px solid #4C2F99; */
+    /* box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF; */
+}
+.btn-flecha{
+    height: 36px;
+    background: #F7C9F3;
+    /* border: 1px solid #4C2F99; */
+    /* box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;    */
+
+}
+
+.cambioVisible {
+    visibility: "visible" ;
+    margin-top: 70px;
+    position: absolute;  
+    z-index: 5;
+    background-color:#E6E6E6;
+    box-shadow: inset -2px -2px #B4B4B4, inset 2px 2px #FFFFFF;
+    width: 130px;
+    height: 102px;
+}
+.cambioOculto {
+    visibility: "hidden"; 
+    margin-top: -190px;
+    position: absolute; 
+    z-index: 5;
+}
+.diaBoton, .nocheBoton{
+    width: 110px;
+    height: 36px;
+    margin-left: 10px;
+    margin-top: 12px;
+    background: #F0F0F0;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+    }
+.sub, .sub1{
+        width: 110px;
+        height: 36px;
+        margin-left: 10px;
+}
+.nocheBoton:active{
+    background-color: white;
+}
+   
+.diaBoton:active{
+    background-color: white;
+}
+
+.item{
+    width: 270px;
+    height: 270px;
+    margin-left: 10px;
+}
+.items{
+    width: 250px;
+    height: 250px;
+    padding: 10px;   
+     
+}
+
+.Tendencias{
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+        
+}
+.tendenciaTitulo{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.oculto2{
+    display: none;
+}
+.oculto{
+    display: block;
+    
+}
+
+.gifTendencias{
+    width: 100%;
+    height: auto;
+       
+    
+}
